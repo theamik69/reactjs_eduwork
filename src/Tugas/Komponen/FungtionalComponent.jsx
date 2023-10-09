@@ -1,4 +1,4 @@
-const FungtionalKomponent = ({name}) => {
+const FungtionalComponent = ({name}) => {
     return (
     <div>
       <h1>Hello, {name}!</h1>
@@ -6,4 +6,4 @@ const FungtionalKomponent = ({name}) => {
   );
 }
 
-export default FungtionalKomponent;
+export default FungtionalComponent;
