@@ -1,12 +1,10 @@
 import React from "react";
-import ClassComponent from "./Komponen/ClassComponent";
-import FungtionalComponent from "./Komponen/FungtionalComponent";
+import Header from "./Portofolio/Header";
 export default class Komponen extends React.Component {
   render() {
     return (
       <div>
-        <FungtionalComponent name= "John"/>
-        <ClassComponent />
+        <Header />
       </div>
     );
   }

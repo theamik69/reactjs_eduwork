@@ -1,15 +1,13 @@
-import Komponen from "./Tugas"
+import Komponen from "./Tugas";
 
 function App() {
-
-
   return (
     <>
       <div>
-      <Komponen />
-    </div>
+        <Komponen />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
