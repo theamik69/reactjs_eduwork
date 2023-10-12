@@ -42,7 +42,7 @@ export default class FormAndValidation extends React.Component {
     const isValid = this.handleValidation();
 
     if (isValid) {
-      alert("Login success!!");
+      alert("It has been successfully submitted");
       this.setState({ email: "", password: "" });
     }
   };
@@ -73,7 +73,7 @@ export default class FormAndValidation extends React.Component {
                   </small>
                 </div>
                 <button type="submit" className="btn btn-primary">
-                  Login
+                  Submit
                 </button>
               </form>
             </div>
