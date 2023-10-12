@@ -1,5 +1,5 @@
 import React from "react";
-import FormAndValidation from "./Formulir/formAndValidation";
+import Formulir from "./Formulir";
 
 
 
@@ -7,7 +7,7 @@ export default class Tugas extends React.Component {
   render() {
     return (
       <div>
-        <FormAndValidation />
+        <Formulir />
       </div>
     );
   }
