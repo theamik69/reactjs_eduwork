@@ -1,5 +1,5 @@
 import React from "react";
-import FormAndValidation from "./Form/formAndValidation";
+import FormAndValidation from "./Formulir/formAndValidation";
 
 
 
