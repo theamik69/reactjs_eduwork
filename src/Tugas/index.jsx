@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "./Portofolio/Header";
-export default class Komponen extends React.Component {
+import FormAndValidation from "./Form/formAndValidation";
+
+
+export default class Tugas extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <FormAndValidation />
       </div>
     );
   }

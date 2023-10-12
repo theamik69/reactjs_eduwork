@@ -1,10 +1,10 @@
-import Komponen from "./Tugas";
+import Tugas from "./Tugas";
 
 function App() {
   return (
     <>
       <div>
-        <Komponen />
+        <Tugas />
       </div>
     </>
   );
