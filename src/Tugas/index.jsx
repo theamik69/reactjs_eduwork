@@ -1,13 +1,11 @@
 import React from "react";
-import Formulir from "./Formulir";
-
-
+import News from "./News";
 
 export default class Tugas extends React.Component {
   render() {
     return (
       <div>
-        <Formulir />
+        <News />
       </div>
     );
   }
