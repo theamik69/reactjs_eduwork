@@ -46,7 +46,7 @@ export default class Card extends React.Component {
   };
 
   fetchData = () => {
-    fetch(`https://newsapi.org/v2/everything?q=${this.state.query}&apiKey=da38431de65b4bee99ecfb7782944dd1`)
+    fetch(`https://newsapi.org/v2/everything?q=${this.state.query}&apiKey=`)
       .then((response) => response.json())
       .then(({ articles }) => {
         const articlesWithId = articles.map((article, index) => ({
